@@ -59,3 +59,14 @@
         .weitersburg {
             color: azure;
         }
+        .Hagen{
+            width: 150px;
+            height: 35px;
+            color: blue;
+            font-size: 10px;
+            font-weight: bold;
+            border: none;
+            background-color: green;
+            cursor: pointer;
+            margin-right: 8px;
+        }
