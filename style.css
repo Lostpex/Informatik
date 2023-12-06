@@ -11,17 +11,21 @@
             padding: 0;
             overflow: hidden;
         }
-
+        table{
+            color: rgb(143, 143, 209);
+            margin: 2% 0% ;
+        }
         .nav-bar-links{
             float: right;
         }
-        
+        .list{
+            color: #6a994e;
+        }
         li a {
             display: block;
             color: white;
             text-align: center;
             padding: 14px 16px;
-            text-decoration: none;
             }
 
         li a:hover {
@@ -36,11 +40,13 @@
           padding: 14px 16px;
           padding: 0px;
           margin: 0px;
-          text-decoration: none;
         
         }
 
         #hagen-picture{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
                     border-radius: 5%;
                     height: 30%;
                     width: 30%;
@@ -69,4 +75,7 @@
             background-color: green;
             cursor: pointer;
             margin-right: 8px;
+        }
+        .platzhalter{
+            padding: 5%;
         }
