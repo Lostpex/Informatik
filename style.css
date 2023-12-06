@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=REM:wght@300&family=Roboto+Condensed&display=swap');
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+            color: aliceblue;
+            background-color: #2A2B2A;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .nav-bar-links{
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+        li a:hover {
+          background-color: #6a994e;
+        }
+
+        #hagen-kessler {
+            float: left;
+            display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          padding: 0px;
+          margin: 0px;
+          text-decoration: none;
+        
+        }
+
+        #hagen-picture{
+                    border-radius: 5%;
+                    height: 30%;
+                    width: 30%;
+        }
+
+        .welcome-text{
+            text-align: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .welcome-text-h1 {
+            font-size: 45px;
+            font-weight: 100;
+        }
+        .weitersburg {
+            color: azure;
+        }
+        .Hagen{
+            width: 150px;
+            height: 35px;
+            color: blue;
+            font-size: 10px;
+            font-weight: bold;
+            border: none;
+            background-color: green;
+            cursor: pointer;
+            margin-right: 8px;
+        }
