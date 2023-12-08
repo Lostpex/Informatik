@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/svg.svg">
+    <link rel="apple-touch-icon" href="img/svg.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Hagen Keßler</title>
 </head>
 <body>
     <nav>
-        <ul>
+        <div class="topnav">
+            <a href="#home" class="active">Hagen Keßler</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="#news">Projekte</a>
+              <a href="#contact">Kontakt</a>
+              <a href="#about">Über mich</a>
+            </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!-- <ul>
             <li><a class="nav-bar-links" href="contact.asp">Über mich</a></li>
             <li><a class="nav-bar-links" href="about.asp"><em>"Platzhalter"</em></a></li>
             <li><a class="nav-bar-links" href="news.asp">Projekte</a></li>
             <li><a class="nav-bar-links" href="index.html">Startseite</a></li>
             <li><a  id="hagen-kessler" href="index.html"><p>Hagen Keßler</p></a></li>
-        </ul>
+        </ul> -->
     </nav>
         <div class="welcome-text"><h1 class="welcome-text-h1"><u>Hallo, ich bin der Hagen</u></h1></div>
     <img src="/img/Die-Spannung-war-natuerlich-gross-bei-der-64314.jpg" id="hagen-picture" srcset="">
@@ -52,19 +68,7 @@
         </tr>
     </table>
 <!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active">Hagen</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+
 <script>
     function myFunction() {
     var x = document.getElementById("myLinks");
