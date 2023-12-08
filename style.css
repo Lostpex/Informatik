@@ -120,3 +120,15 @@
             background-color: #04AA6D;
             color: white;
           }
+          .article-about{
+margin: auto;
+          }
+
+          .article-about-me{
+            display: flex;
+            margin-right: 45%;
+
+          }
+          .img-hagen{
+            float: right;
+          }
