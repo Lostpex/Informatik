@@ -121,14 +121,18 @@
             color: white;
           }
           .article-about{
-margin: auto;
+            margin: auto;
           }
 
           .article-about-me{
-            display: flex;
             margin-right: 45%;
 
           }
           .img-hagen{
             float: right;
+          }
+
+          .container{
+            display: flex;
+            
           }
